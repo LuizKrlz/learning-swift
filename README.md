@@ -1,8 +1,10 @@
-#  Example for card view in swift ui
+#  Learning Swift UI
 ---
 
-This is a simple project to build a group box view:
+This is a simple project to practise swift ui
 
 ### Preview
+
+- Card View
 
 <img src="./print.png" alt="Card View" />
