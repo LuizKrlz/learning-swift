@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1A66C4D2C71389D003FA502 /* card_view_swift_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66C4C2C71389D003FA502 /* card_view_swift_uiApp.swift */; };
-		D1A66C4F2C71389D003FA502 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66C4E2C71389D003FA502 /* ContentView.swift */; };
-		D1A66C512C71389F003FA502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A66C502C71389F003FA502 /* Assets.xcassets */; };
-		D1A66C542C71389F003FA502 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A66C532C71389F003FA502 /* Preview Assets.xcassets */; };
+		D100A9DE2C713EA5001BCA2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D100A9D82C713EA5001BCA2F /* Preview Assets.xcassets */; };
+		D100A9DF2C713EA5001BCA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D100A9DA2C713EA5001BCA2F /* Assets.xcassets */; };
+		D100A9E02C713EA5001BCA2F /* learning_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100A9DB2C713EA5001BCA2F /* learning_swiftApp.swift */; };
+		D100A9E12C713EA5001BCA2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100A9DC2C713EA5001BCA2F /* ContentView.swift */; };
+		D100A9E42C713F0A001BCA2F /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100A9E32C713F0A001BCA2F /* MusicPlayerView.swift */; };
+		D1A66C5C2C713C18003FA502 /* print.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A66C5B2C713C18003FA502 /* print.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D1A66C492C71389D003FA502 /* card-view-swift-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "card-view-swift-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1A66C4C2C71389D003FA502 /* card_view_swift_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card_view_swift_uiApp.swift; sourceTree = "<group>"; };
-		D1A66C4E2C71389D003FA502 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D1A66C502C71389F003FA502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D1A66C532C71389F003FA502 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D100A9D82C713EA5001BCA2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D100A9DA2C713EA5001BCA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D100A9DB2C713EA5001BCA2F /* learning_swiftApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = learning_swiftApp.swift; sourceTree = "<group>"; };
+		D100A9DC2C713EA5001BCA2F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D100A9E32C713F0A001BCA2F /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
+		D1A66C492C71389D003FA502 /* Learning Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A66C5A2C713BBE003FA502 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D1A66C5B2C713C18003FA502 /* print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = print.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D100A9D92C713EA5001BCA2F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D100A9D82C713EA5001BCA2F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D100A9DD2C713EA5001BCA2F /* learning_swift */ = {
+			isa = PBXGroup;
+			children = (
+				D100A9E22C713EF4001BCA2F /* Itens */,
+				D100A9D92C713EA5001BCA2F /* Preview Content */,
+				D100A9DA2C713EA5001BCA2F /* Assets.xcassets */,
+				D100A9DB2C713EA5001BCA2F /* learning_swiftApp.swift */,
+				D100A9DC2C713EA5001BCA2F /* ContentView.swift */,
+			);
+			path = learning_swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		D100A9E22C713EF4001BCA2F /* Itens */ = {
+			isa = PBXGroup;
+			children = (
+				D100A9E32C713F0A001BCA2F /* MusicPlayerView.swift */,
+			);
+			path = Itens;
+			sourceTree = "<group>";
+		};
 		D1A66C402C71389D003FA502 = {
 			isa = PBXGroup;
 			children = (
-				D1A66C4B2C71389D003FA502 /* card-view-swift-ui */,
+				D1A66C5A2C713BBE003FA502 /* README.md */,
+				D1A66C5B2C713C18003FA502 /* print.png */,
+				D100A9DD2C713EA5001BCA2F /* learning_swift */,
 				D1A66C4A2C71389D003FA502 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,36 +78,17 @@
 		D1A66C4A2C71389D003FA502 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1A66C492C71389D003FA502 /* card-view-swift-ui.app */,
+				D1A66C492C71389D003FA502 /* Learning Swift.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D1A66C4B2C71389D003FA502 /* card-view-swift-ui */ = {
-			isa = PBXGroup;
-			children = (
-				D1A66C4C2C71389D003FA502 /* card_view_swift_uiApp.swift */,
-				D1A66C4E2C71389D003FA502 /* ContentView.swift */,
-				D1A66C502C71389F003FA502 /* Assets.xcassets */,
-				D1A66C522C71389F003FA502 /* Preview Content */,
-			);
-			path = "card-view-swift-ui";
-			sourceTree = "<group>";
-		};
-		D1A66C522C71389F003FA502 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D1A66C532C71389F003FA502 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1A66C482C71389D003FA502 /* card-view-swift-ui */ = {
+		D1A66C482C71389D003FA502 /* Learning Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1A66C572C71389F003FA502 /* Build configuration list for PBXNativeTarget "card-view-swift-ui" */;
+			buildConfigurationList = D1A66C572C71389F003FA502 /* Build configuration list for PBXNativeTarget "Learning Swift" */;
 			buildPhases = (
 				D1A66C452C71389D003FA502 /* Sources */,
 				D1A66C462C71389D003FA502 /* Frameworks */,
@@ -82,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = "card-view-swift-ui";
+			name = "Learning Swift";
 			productName = "card-view-swift-ui";
-			productReference = D1A66C492C71389D003FA502 /* card-view-swift-ui.app */;
+			productReference = D1A66C492C71389D003FA502 /* Learning Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D1A66C442C71389D003FA502 /* Build configuration list for PBXProject "card-view-swift-ui" */;
+			buildConfigurationList = D1A66C442C71389D003FA502 /* Build configuration list for PBXProject "Learning Swift" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1A66C482C71389D003FA502 /* card-view-swift-ui */,
+				D1A66C482C71389D003FA502 /* Learning Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A66C542C71389F003FA502 /* Preview Assets.xcassets in Resources */,
-				D1A66C512C71389F003FA502 /* Assets.xcassets in Resources */,
+				D100A9DE2C713EA5001BCA2F /* Preview Assets.xcassets in Resources */,
+				D1A66C5C2C713C18003FA502 /* print.png in Resources */,
+				D100A9DF2C713EA5001BCA2F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A66C4F2C71389D003FA502 /* ContentView.swift in Sources */,
-				D1A66C4D2C71389D003FA502 /* card_view_swift_uiApp.swift in Sources */,
+				D100A9E42C713F0A001BCA2F /* MusicPlayerView.swift in Sources */,
+				D100A9E12C713EA5001BCA2F /* ContentView.swift in Sources */,
+				D100A9E02C713EA5001BCA2F /* learning_swiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +289,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"card-view-swift-ui/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = D7YRH2973S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.code2dark.card-view-swift-ui";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code2dark.learning-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,7 +318,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"card-view-swift-ui/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = D7YRH2973S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.code2dark.card-view-swift-ui";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code2dark.learning-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1A66C442C71389D003FA502 /* Build configuration list for PBXProject "card-view-swift-ui" */ = {
+		D1A66C442C71389D003FA502 /* Build configuration list for PBXProject "Learning Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1A66C552C71389F003FA502 /* Debug */,
@@ -334,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1A66C572C71389F003FA502 /* Build configuration list for PBXNativeTarget "card-view-swift-ui" */ = {
+		D1A66C572C71389F003FA502 /* Build configuration list for PBXNativeTarget "Learning Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1A66C582C71389F003FA502 /* Debug */,
